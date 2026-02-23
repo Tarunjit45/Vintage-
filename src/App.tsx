@@ -170,7 +170,7 @@ const Hero = () => {
       >
         <div className="absolute inset-0 bg-black/60 z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=2070&q=80" 
           alt="Barber working" 
           className="w-full h-full object-cover grayscale contrast-125"
         />
@@ -236,7 +236,7 @@ const About = () => {
             className="relative z-10"
           >
             <img 
-              src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=2070&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1000&q=80" 
               alt="Barber tools" 
               className="w-full aspect-[4/5] object-cover grayscale contrast-110"
             />
@@ -286,25 +286,25 @@ const Services = () => {
       title: "The Signature Cut",
       price: "$45",
       description: "Consultation, precision haircut, hot towel finish, and styling.",
-      image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1974&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Classic Shave",
       price: "$35",
       description: "Traditional straight razor shave with hot towels and essential oils.",
-      image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2070&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "Beard Sculpting",
       price: "$25",
       description: "Expert trimming and shaping to compliment your facial structure.",
-      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=2070&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80"
     },
     {
       title: "The Full Service",
       price: "$75",
       description: "Haircut, beard trim, and facial treatment for the ultimate refresh.",
-      image: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1976&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80"
     }
   ];
 
@@ -364,12 +364,12 @@ const Services = () => {
 
 const Gallery = () => {
   const images = [
-    "https://images.unsplash.com/photo-1593702295094-aea8c5c13d73?q=80&w=1974&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1512864084360-7c0c4d0a0845?q=80&w=2070&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1635273051937-93c4d3063ceb?q=80&w=1974&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1504198458649-3128b932f49e?q=80&w=1974&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?q=80&w=2070&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=2080&auto=format&fit=crop"
+    "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1520338661084-680395057c93?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1532710093739-9470acff878f?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1504198458649-3128b932f49e?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80"
   ];
 
   return (
