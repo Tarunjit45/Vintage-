@@ -10,17 +10,17 @@ The Salon
 
 ## ✨ Key Features & Architecture
 
-- **High-Performance Architecture:** Engineered using modern `TypeScript` best practices.
-- **Modular & Scalable Design:** Structured code organization for easy maintenance and deployment.
-- **Modern UI/UX:** Clean, responsive glassmorphic interfaces designed for high user engagement.
+- **High-Performance Codebase:** Built using `TypeScript` and modern engineering principles.
+- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
+- **Modern Responsive Styling:** Custom UI design system engineered for mobile & desktop clarity.
 
-## 🛠️ Tech Stack & Technologies
+## 🛠️ Tech Stack & Dependencies
 
-- **Primary Language:** `TypeScript`
-- **Frameworks & Libraries:** React 18, Tailwind CSS, TypeScript, Vite
-- **Deployment Target:** Vercel Edge / Cloud Infrastructure
+- **Core Language:** `TypeScript`
+- **Libraries & Tools:** React 18, Vite, Tailwind CSS, TypeScript
+- **Deployment Infrastructure:** Vercel Edge / Cloud Services
 
-## 📁 Project Directory Structure
+## 📁 Architecture & File Layout
 
 ```text
 Vintage-/
@@ -39,16 +39,16 @@ Vintage-/
 ├── README.md
 ├── index.html
 ├── metadata.json
-└── ... [additional source files]
+└── ... [additional codebase files]
 ```
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Installation
 
 ### Prerequisites
 - Node.js (v18.0.0 or higher)
-- npm or yarn
+- npm or yarn package manager
 
-### Installation & Local Setup
+### Setup Instructions
 
 1. **Clone the repository:**
    ```bash
@@ -61,12 +61,12 @@ Vintage-/
    npm install
    ```
 
-3. **Start development server:**
+3. **Launch development server:**
    ```bash
    npm run dev
    ```
 
-## 📜 License & Author
+## 📜 Author & License
 
-Engineered with ❤️ by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Released under the **MIT License**.
+Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
+Distributed under the **MIT License**.
