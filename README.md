@@ -1,72 +1,50 @@
-# 🚀 Vintage-
+# ✂️ Vantage Grooming Co. — Luxury Salon & Barbershop Showcase
 
-![Language](https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Production-Active-success?style=for-the-badge)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Bundler-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## 📌 Overview
+**Vantage Grooming Co.** is a luxury barbershop and premium salon web application. Designed with high-contrast editorial styling, warm brass accents, and modern typography, it provides a seamless booking and service discovery experience for boutique grooming studios.
 
-The Salon 
+---
 
-## ✨ Key Features & Architecture
+## ✨ Features
 
-- **High-Performance Codebase:** Built using `TypeScript` and modern engineering principles.
-- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
-- **Modern Responsive Styling:** Custom UI design system engineered for mobile & desktop clarity.
+* 💈 **Artisanal Service Menu:** Classic haircuts, hot-towel beard trims, facial therapies, and bridal/groom packages.
+* 👨‍🎨 **Master Stylist Showcase:** Individual barber credentials, specialties, and chair availability.
+* 📅 **Appointment Booking Flow:** Streamlined reservation interface with time-slot pickers and stylist selection.
+* 🧴 **Curated Grooming Products:** Showcase organic pomades, beard oils, and grooming apothecary kits.
 
-## 🛠️ Tech Stack & Dependencies
+---
 
-- **Core Language:** `TypeScript`
-- **Libraries & Tools:** React 18, Vite, Tailwind CSS, TypeScript
-- **Deployment Infrastructure:** Vercel Edge / Cloud Services
-
-## 📁 Architecture & File Layout
+## 📁 Repository Structure
 
 ```text
 Vintage-/
-├── .env.example
-├── .github
-├── .github/ISSUE_TEMPLATE
-├── .github/ISSUE_TEMPLATE/bug_report.md
-├── .github/ISSUE_TEMPLATE/feature_request.md
-├── .github/PULL_REQUEST_TEMPLATE.md
-├── .github/workflows
-├── .github/workflows/ci.yml
-├── .gitignore
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── index.html
-├── metadata.json
-└── ... [additional codebase files]
+├── src/                # BookingModal, ServiceMenu, StylistGallery, Hero
+├── metadata.json       # Project manifest
+├── package.json        # Dependencies & scripts
+├── LICENSE             # MIT License
+└── README.md
 ```
 
-## 🚀 Quickstart & Installation
+---
 
-### Prerequisites
-- Node.js (v18.0.0 or higher)
-- npm or yarn package manager
+## 🚀 Quick Start
 
-### Setup Instructions
+```bash
+git clone https://github.com/Tarunjit45/Vintage-.git
+cd Vintage-
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Tarunjit45/Vintage-.git
-   cd Vintage-
-   ```
+npm install
+npm run dev
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-3. **Launch development server:**
-   ```bash
-   npm run dev
-   ```
+---
 
-## 📜 Author & License
-
-Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Distributed under the **MIT License**.
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
